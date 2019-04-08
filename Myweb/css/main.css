@@ -1,0 +1,39 @@
+*{	
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+background-color:#444444;
+}
+.header{
+	display:grid;
+	grid-template-columns: 50% 50%;
+}
+.navigation{
+
+padding:30px;
+
+
+}
+
+.navigation_bar a{
+	 
+	color:#f30067;
+	text-decoration:none;
+	padding:40px;
+}
+
+.icons{
+
+font-size: 40px;
+padding:20px;
+
+}
+#icon1{
+float:right;
+padding-left:40px;
+color:#f30067;
+}
