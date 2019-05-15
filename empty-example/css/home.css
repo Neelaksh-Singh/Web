@@ -1,0 +1,19 @@
+.bug_song{
+
+font-size:50px;
+text-align:center;
+padding:180px;
+
+color:#f30067;
+}
+.bug_song a{
+	
+		color:#888888;
+}
+.bug_song a:hover{
+		
+		color:#00d1cd;
+}
+.bug_song a:active{
+		color:red;
+}

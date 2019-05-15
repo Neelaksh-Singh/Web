@@ -1,0 +1,117 @@
+
+<html>
+	<head>
+		<style>
+				*{
+					
+					box-sizing: border-box;
+				}
+				body{
+					margin:30px;
+					padding:0;
+				}
+				
+				.logo , .header{
+					margin-top:20px;
+					text-align:center;
+					
+					padding:10px;
+					background:black;
+					color : white;
+				}
+				
+				.navigation{
+					display:flex;
+					flex-wrap:wrap;
+					margin-top:20px;
+					justify-content: space-between; 
+				}
+				 .middle{
+					display:flex;
+					flex-wrap:wrap;
+					margin-top:20px;
+				}
+				
+				.navigation a{
+					padding:10px;
+					
+					width:200px;
+					text-align:center;
+					 align-items: stretch;
+					background:green;
+					color:white;
+				}
+				
+			
+				.about{
+					
+					background:red;
+					padding:10px;
+					flex:50%;
+					
+				}
+				.links{
+					flex:50%;
+					display:flex;
+					flex-wrap:wrap;
+					flex-direction:column;
+				}
+				.links1,.links2{
+					
+					background: black;
+					color : white;
+					padding:20px;
+				}
+				.footer{
+					margin-top:20px;
+					background: black;
+					color : white;
+					padding:20px;
+				}
+				@media screen and (max-width: 700px){
+					.middle ,.navigation{
+						flex-direction: column;
+					}
+					.navigation a{
+						width:100%;
+						margin-top:10px;
+					}
+				}
+				
+		</style>
+	</head>
+	<body>
+		<div class="body">
+			
+			<div class="logo">
+				<h2>logo</h2>
+			</div>
+			<div class="header">
+				<h3>header</h3>
+			</div>
+			<div class="navigation">
+				<a href="#" >link</a>
+				<a href="#">link</a>
+				<a href="#"  >link</a>
+				<a href="#" >link</a>
+			</div>
+			<div class="middle">
+				
+				<div class="about">
+					<h2>about</h2>
+				</div>
+				
+				<div class="links">
+					<div class="links1"><h3>fjlndfjlnv</h3></div>
+					<div class="links2"><h3>kngjn</h3></div>
+				</div>
+				
+			</div>
+			
+			<div class="footer">
+				<h2>footer</h2>
+			</div>
+		
+		</div>
+	</body>
+</html>

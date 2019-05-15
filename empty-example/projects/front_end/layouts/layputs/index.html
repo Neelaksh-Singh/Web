@@ -1,0 +1,99 @@
+<html>
+	
+	<head>
+		<style>
+			*{
+				box-sizing:border-box;
+			}
+			body{
+				padding:0px;
+				margin:0px;
+				
+			}
+			.header{
+				display:flex;
+				padding:0px;
+				margin:40px 30px 0px 30px;
+				background:black;
+				flow-direction:row;
+			}
+			.logo{
+				
+				
+				flex:8;
+				background:red;
+			}
+			.logo p{
+				padding:10px;
+				}
+			.menu{
+				
+				flex:2;
+				display:flex;
+				padding:20px;
+				background:green;
+				flex-direction:row;
+			}
+			.i1,.i2,.i3{
+				padding:5px;
+			}
+			.middle{
+				margin:10px 30px 0px 30px;
+				
+				padding:20px;
+				height:500px;
+				background:red;
+			}
+			.images{
+				background:green;
+				display:flex;
+					padding:10px;
+					height:500px;
+			}
+			.left{
+				
+				flex:50%;
+				padding:50px;
+				background:red;
+				margin:10px;
+				
+			}
+			.right{
+				flex:50%;
+				padding:10px;
+				background:red;
+				margin:10px;
+			}
+			@media screen and (max-width: 700px){
+				.images{
+						flex-direction: column;
+						
+					}
+					.header{
+						flex-direction: column;
+						text-align:center;
+					}
+					
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class ="logo"><p>ROOT BABU | Design+Containg</p></div>
+			<div class ="menu">
+				<div class="i1"><a href="#">Welcome</a><span>|</span></div>
+				<div class="i2"><a href="#">Design</a><span>|</span></div>
+				<div class="i3"><a href="#">About</a></div>
+			</div>
+			
+		</div>
+		<hr>
+		<div class="middle">
+			<img src="aa.jpg">
+		</div>
+		<div class="images">
+			<div class="left"></div>
+			<div class="right"></div>
+		</div>
+	</body>
+</html>

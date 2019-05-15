@@ -1,0 +1,60 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	text-align:justify;
+	font-family: Verdana, Geneva, sans-serif;
+}
+body{
+	background-color: #222831;
+	margin:0;
+	padding:0;
+	
+}
+.body{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+}
+.content{
+	margin:50px 20px 50px 20px;
+	width:700px;
+	background:blue;
+	padding:20px;
+	border:1px solid #d65a31;
+	border-radius: 9px;
+	background:#222831;
+}
+
+.intro{
+	color:white;
+	font-size:30px;
+	letter-spacing: .5rem;
+	margin-bottom:30px;
+}
+.intro p{
+		border-bottom: solid 1px #fff;
+		
+}
+.img{
+	
+	text-align:center;
+	
+}
+.img img{
+	width:100%;
+	border-radius: 4px;
+	display: block;
+	
+}
+
+.intro_content{
+	
+	color:white;
+
+}
+.intro_content p{
+	
+	margin-top:30px;
+	
+}

@@ -1,0 +1,103 @@
+<html>
+	<head>
+		<style>
+			*{
+				box-sizing: border-box;
+			}
+			body{
+				margin:0;
+				padding:0;
+				
+			}
+			.main_header{
+				padding:40px;
+				text-algin:center;
+				background:#211717;
+				color:#ffffff;
+				text-align:center;
+				font-size:20px;
+			}
+			.middle{
+				display:flex;
+				margin:10px;
+			
+			}
+			
+			.sidebar{
+				flex:20%;
+				text-align:center;
+				background:#dfddc7;
+				
+				
+			}
+			.right{
+			flex:80%;
+			display:flex;
+		
+			}
+			.lower_header{
+				padding:10px;
+				background:#f58b54;
+				color:white;
+				margin:2px;
+			}
+			.content{
+				display:flex;
+				flex-wrap:wrap;
+				 justify-content: center;
+				
+			}
+			.grid1,.grid2{
+				margin:2px;
+				background: #a34a28;
+				padding:20px;
+				text-align:center;
+				flex:25%;
+			}
+			.footer{
+				padding:40px;
+				background:#211717;
+				font-size:20px;
+				text-align:center;
+				color:white
+			}
+				@media screen and (max-width: 700px){
+					.middle,.content{
+						flex-direction: column;
+					}
+					.lower_header{
+						text-align:center;
+					}
+				}
+			
+		</style>
+	</head>
+	<body>
+		<div class="main_header">
+			<h3>Header</h3>
+		</div>
+		<div class="middle">
+			<div class="sidebar">
+				<h3>sidebar</h3>
+			</div>
+			<div class="right_content">
+				<div class="lower_header">
+					<h3>Lower Header</h3>
+				</div>
+				<div class="content">
+					<div class="grid1"><h3>Flexible grid unit</h3></div>
+					<div class="grid2"><h3>Flexible grid unit</h3></div>
+					<div class="grid1"><h3>Flexible grid unit</h3></div>
+					<div class="grid2"><h3>Flexible grid unit</h3></div>
+					<div class="grid1"><h3>Flexible grid unit</h3></div>
+					<div class="grid2"><h3>Flexible grid unit</h3></div>
+				</div>
+			</div>
+			
+			
+		</div>
+		<div class="footer">
+			<h3>Foooter</h3>
+		</div>
+	</body>
+</html>
