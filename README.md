@@ -2,6 +2,7 @@
 
 https://colorhunt.co/palette/142677
 
+mail form details (not_ secure):-https://formspree.io/
 
 waiting .......
 learning p5.js.......
