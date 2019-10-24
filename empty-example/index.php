@@ -40,6 +40,7 @@
 					
 					<div><a href="https://medium.com/@vikas25019"><i class="fa fa-medium" aria-hidden="true" id="icon1"></i></a></div>
 					
+					<div><a href="https://facebook.com/@vikas25019"><i class="fa fa-facebook" aria-hidden="true" id="icon1"></i></a></div>
 				</div>
 			
 			</div>
